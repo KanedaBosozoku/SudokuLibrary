@@ -1,4 +1,5 @@
 module Tests
+open System
 
 open Expecto
 
