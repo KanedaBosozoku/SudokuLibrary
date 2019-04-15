@@ -30,7 +30,4 @@ let tests =
     testCase "Sometimes I want to ༼ノಠل͟ಠ༽ノ ︵ ┻━┻" <| fun _ ->
       Expect.equal "abcdëf" "abcdef" "These should equal"
 
-    test "I am (should fail)" {
-      "╰〳 ಠ 益 ಠೃ 〵╯" |> Expect.equal true false
-    }
   ]
