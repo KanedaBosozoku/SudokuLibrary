@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Collections\RandomAccessList.fsi" />
+    <Compile Include="Collections/RandomAccessList.fs" />
+    <Compile Include="Library.fs" />
+    <Compile Include="SquareType.fs" />
+    <Compile Include="LinqExtensions.fs" />
+    <Compile Include="FileTypes.fs" />
+    <Compile Include="BoardReadWrite.fs" />
+    <Compile Include="IndexMapping.fs" />
+    <Compile Include="BoardType.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
